@@ -1,0 +1,44 @@
+@charset utf-8;
+
+body {
+		background: linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+}
+p {
+	color: #601C1C;
+	font-size: 1.4em;
+}
+
+p + p {
+	margin-top:2em;
+}
+
+.container {
+	padding: 3%;
+	height:100vH;
+}
+
+
+#offline {
+	color:#fff;
+	padding:2em 0;
+}
+#offline p {
+	margin:2em 0;
+	color:#fff;
+}
+#offline a {
+	color:#F0DC1C;
+}
+
+.progress {
+	width:70%;
+	margin:3em auto 2em auto;
+}
+.progress-bar {
+	background:#B01C1C;
+}
+@media (min-width: 768px) { 
+	#offline .adresse, #offline .zeiten  {
+		text-align:left;
+	}	
+}
