@@ -7,6 +7,7 @@ body {
 	background:     -ms-linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
 	background:      -o-linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
 	background:         linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+	font-family: 'Roboto', sans-serif;
 }
 p {
 	color: #601C1C;
@@ -29,6 +30,9 @@ p + p {
 }
 #offline a {
 	color:#F0DC1C;
+}
+#offline img {
+	padding-bottom:2em;
 }
 .progress {
 	width:70%;
