@@ -32,12 +32,16 @@
           </div>
 
           <p>Tragen Sie Ihre E-Mail-Adresse ein und wir informieren Sie rechtzeitig!</p>
-          <form class="form-inline">
-            <div class="form-group form-group-lg">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ihre E-Mail-Adresse" size="40">
-            </div>
-            <button type="submit" class="btn btn-default btn-lg">Eintragen</button>
-          </form>
+          <div class="form-group form-group-lg">
+
+            <form class="form-inline" action="http://formspree.io/dest.roy@web.de" method="post">
+              <input type="email" class="form-control" size="40" name="_replyto" placeholder="Ihre E-Mail-Adresse" />
+              <input type="hidden" name="_next" value="http://www.allyanddotty.de" />
+              <input type="hidden" name="_subject" value="Neue Anmeldung" />
+              <input type="submit" value="Eintragen" class="btn btn-default btn-lg" />
+            </form>
+
+          </div>
         </div>  
       </div>
       <div id="offline" class="row">

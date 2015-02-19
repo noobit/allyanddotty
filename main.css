@@ -1,23 +1,24 @@
 @charset utf-8;
 
 body {
-		background: linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+	background: #B01C1C;
+	background: -webkit-linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+	background:    -moz-linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+	background:     -ms-linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+	background:      -o-linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
+	background:         linear-gradient(to bottom, #fff 30%, #F0DC1C 50%, #B01C1C 90%);
 }
 p {
 	color: #601C1C;
 	font-size: 1.4em;
 }
-
 p + p {
 	margin-top:2em;
 }
-
 .container {
 	padding: 3%;
 	height:100vH;
 }
-
-
 #offline {
 	color:#fff;
 	padding:2em 0;
@@ -29,7 +30,6 @@ p + p {
 #offline a {
 	color:#F0DC1C;
 }
-
 .progress {
 	width:70%;
 	margin:3em auto 2em auto;
