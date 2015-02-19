@@ -1,2 +1,0 @@
-# allyanddotty
-allyaddotty.de
