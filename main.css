@@ -16,19 +16,22 @@ p {
 p + p {
 	margin-top:2em;
 }
+img {
+	max-height:200px;
+}
 .container {
 	padding: 3%;
 	height:100vH;
 }
 #offline {
 	color:#fff;
-	padding:2em 0;
+	padding:0;
 }
 #offline p {
-	margin:2em 0;
+	margin: 1em;
 	color:#fff;
 }
-#offline a {
+#offline a, #offline .glyphicon {
 	color:#F0DC1C;
 }
 #offline img {
@@ -40,6 +43,10 @@ p + p {
 }
 .progress-bar {
 	background:#B01C1C;
+}
+.net {
+	font-size: 1em;
+	margin:0;
 }
 @media (min-width: 768px) { 
 	#offline .adresse, #offline .zeiten  {
